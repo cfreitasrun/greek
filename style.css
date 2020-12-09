@@ -1,0 +1,138 @@
+.page {
+  background-color: #f8f6ed;
+  height: 1000px;
+  width: 100%;
+}
+
+.full-width {
+  margin: 20px auto;
+  width: 950px;
+}
+
+.sideways {
+  padding-top: 745px;
+  position: absolute;
+  top: 40px;
+  z-index: 200;
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+}
+
+.word {
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+
+body {
+  background-color: #f8f6ed;
+  margin: auto;
+  width: 950px;
+}
+
+header {
+  height: 100px;
+  margin: 30px auto;
+  padding: 10px 0px 0px 0px;
+  text-align: center;
+  word-spacing: 20px;
+  background-color: #cfcaca;
+}
+
+h2 {
+    color: #888888;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 24px;
+    display: inline-block;
+    line-height: 2px;
+    text-decoration: none;
+}
+
+
+p {
+    font-family: 'Forum', cursive;
+    font-size: 24px;
+    margin: 20px 20px 30px 20px;
+}
+
+.main-block {
+
+}
+
+.main {
+  background-color: white;
+  float: left;
+  margin: 0px 0px 28px 0px;
+  padding: 20px 20px 20px 20px;
+  text-align: left;
+  width: 60%;
+}
+
+aside {
+  font-family: 'Forum', cursive;
+  font-size: 18px;
+  background-color: white;
+  float: right;
+  height: 400px;
+  margin: 0px 0px 28px 0px;
+  padding: 30px 15px 0px 15px;
+  height: 520px;
+  width: 30%;
+  text-align: center;
+  overflow-y: visible;
+}
+
+
+section {
+  background-color: white;
+  clear: both;
+  height: 250px;
+  padding: 0px 0px 0px 0px;
+  width: 950px;
+}
+
+.footer .third-width ul li {
+font-family: 'Forum', cursive;
+font-size: 18px;
+line-height: 0px;
+text-align: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.third-width_1 {
+    font-family: 'Forum', cursive;
+    font-size: 24px;
+    clear: both;
+    display: inline-block;
+    width: 35%;
+  }
+
+.third-width_2 {
+    clear: both;
+    display: inline-block;
+    margin: 0px auto;
+    width: 30%;
+    text-transform: uppercase;
+  }
+
+.third-width_3 {
+  font-family: 'Forum', cursive;
+  font-size: 26px;
+  clear: both;
+  display: inline-block;
+  margin: 20px auto;
+  width: 30%;
+  }
+
+a {
+  color: #002b54;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #805462;
+}
